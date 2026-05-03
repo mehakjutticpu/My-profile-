@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sardar RDX – Full Stack Developer & Bot Builder</title>
+  <meta name="description" content="Sardar RDX – Professional Full Stack Developer, Bot Builder, and Ethical Hacker from Pakistan. Expert in Node.js, Python, Java, WhatsApp Bots, Messenger Bots, Social Media Tools, Hacking Tools, and Web Development." />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Sardar RDX" />
+  <!-- SEO Keywords (hidden from display) -->
+  <meta name="keywords" content="Sardar RDX, Sardar RDX developer, RDX bot zone, RDX coder, RDX hacker Pakistan, WhatsApp bot maker Pakistan, Messenger bot developer, Node.js developer Pakistan, Python developer Pakistan, Facebook token extractor, social media tools Pakistan, hacking tools developer, full stack developer Pakistan, RDX tools, RDX API, Sardar RDX portfolio, Pakistani programmer, bot developer, automation tools, web developer Pakistan, RDX whatsapp bot, RDX API zone, OSFR code obfuscator, CNIC generator, RDX toolkit, Sardar coder, 24 year old developer Pakistan, ICS student developer, Sardar developer, rdx-bot-zone youtube, RDX projects" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sardar RDX – Full Stack Developer & Bot Builder" />
+  <meta property="og:description" content="Professional developer specializing in bots, automation tools, hacking tools, and web development." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/avatar.png" />
+  <link rel="icon" href="/avatar.png" type="image/png" />
+  <link rel="stylesheet" href="/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles"></canvas>
+
+  <!-- Navbar -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="logo-text">SARDAR <span class="accent">RDX</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#home" onclick="closeMobile()">Home</a></li>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#skills" onclick="closeMobile()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMobile()">Projects</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Available for Work
+      </div>
+      <h1 class="hero-name">
+        <span class="name-line">SARDAR</span>
+        <span class="name-line accent glitch" data-text="RDX">RDX</span>
+      </h1>
+      <div class="hero-subtitle">
+        <span class="typed-text" id="typedText"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        Full Stack Developer · Bot Builder · Ethical Hacker · Tool Creator
+        <br/>
+        <em>Turning ideas into powerful digital weapons since day one.</em>
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://youtube.com/@rdx-bot-zone" target="_blank" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://whatsapp.com/channel/0029VbCU9yi4tRroe2Xhwl24" target="_blank" class="social-icon" title="WhatsApp Channel"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://wa.me/923301068874" target="_blank" class="social-icon" title="WhatsApp"><i class="fas fa-comment-dots"></i></a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="hex-frame">
+        <div class="hex-inner">
+          <img src="/avatar.png" alt="Sardar RDX" class="hero-avatar" />
+        </div>
+        <div class="hex-ring ring1"></div>
+        <div class="hex-ring ring2"></div>
+        <div class="hex-ring ring3"></div>
+      </div>
+      <div class="floating-tags">
+        <span class="ftag t1">Node.js</span>
+        <span class="ftag t2">Python</span>
+        <span class="ftag t3">Bot Dev</span>
+        <span class="ftag t4">Hacker</span>
+        <span class="ftag t5">Java</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about section">
+    <div class="section-header">
+      <span class="section-label">01. About Me</span>
+      <h2 class="section-title">Who Is <span class="accent">Sardar RDX</span>?</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-card card-glass">
+        <div class="about-icon"><i class="fas fa-user-astronaut"></i></div>
+        <h3>The Person</h3>
+        <p>I'm <strong>Sardar RDX</strong>, a 24-year-old self-driven developer from Pakistan with an ICS background. I live and breathe code — from building powerful automation bots to crafting cutting-edge web tools.</p>
+      </div>
+      <div class="about-card card-glass">
+        <div class="about-icon"><i class="fas fa-code"></i></div>
+        <h3>The Developer</h3>
+        <p>With expertise across <strong>10+ programming languages</strong>, I specialize in bot development, social media automation, hacking tools, and full-stack web applications that actually work at scale.</p>
+      </div>
+      <div class="about-card card-glass">
+        <div class="about-icon"><i class="fas fa-rocket"></i></div>
+        <h3>The Mindset</h3>
+        <p>I don't just write code — I build <strong>solutions</strong>. Every project I take on is built with precision, security, and real-world impact in mind. No shortcuts, no compromises.</p>
+      </div>
+    </div>
+    <div class="about-stats">
+      <div class="stat-item">
+        <span class="stat-num" data-target="10">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Languages</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="50">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Projects Built</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="24">0</span>
+        <span class="stat-label">Years Old</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="1000">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">Users Served</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section">
+    <div class="section-header">
+      <span class="section-label">02. Skills</span>
+      <h2 class="section-title">Languages & <span class="accent">Technologies</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card card-glass">
+        <i class="fab fa-node-js skill-ico" style="color:#68A063"></i>
+        <span>Node.js</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-python skill-ico" style="color:#3572A5"></i>
+        <span>Python</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-java skill-ico" style="color:#b07219"></i>
+        <span>Java</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-js skill-ico" style="color:#f1e05a"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-html5 skill-ico" style="color:#e34c26"></i>
+        <span>HTML5</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-css3-alt skill-ico" style="color:#563d7c"></i>
+        <span>CSS3</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fas fa-terminal skill-ico" style="color:#89e051"></i>
+        <span>Shell / Bash</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fas fa-database skill-ico" style="color:#00758F"></i>
+        <span>MySQL / MongoDB</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-php skill-ico" style="color:#4F5D95"></i>
+        <span>PHP</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-react skill-ico" style="color:#61dafb"></i>
+        <span>React.js</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fab fa-git-alt skill-ico" style="color:#F05032"></i>
+        <span>Git & GitHub</span>
+      </div>
+      <div class="skill-card card-glass">
+        <i class="fas fa-shield-alt skill-ico" style="color:#ff4757"></i>
+        <span>Ethical Hacking</span>
+      </div>
+    </div>
+    <div class="specialties">
+      <h3 class="spec-title">Specializations</h3>
+      <div class="spec-grid">
+        <div class="spec-item card-glass">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp Bots</span>
+        </div>
+        <div class="spec-item card-glass">
+          <i class="fab fa-facebook-messenger"></i>
+          <span>Messenger Bots</span>
+        </div>
+        <div class="spec-item card-glass">
+          <i class="fas fa-tools"></i>
+          <span>Social Media Tools</span>
+        </div>
+        <div class="spec-item card-glass">
+          <i class="fas fa-user-secret"></i>
+          <span>Hacking Tools</span>
+        </div>
+        <div class="spec-item card-glass">
+          <i class="fas fa-globe"></i>
+          <span>Website Development</span>
+        </div>
+        <div class="spec-item card-glass">
+          <i class="fas fa-key"></i>
+          <span>Code Obfuscation</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects section">
+    <div class="section-header">
+      <span class="section-label">03. Projects</span>
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fab fa-whatsapp project-ico" style="color:#25D366"></i>
+          <div class="project-links">
+            <a href="https://rdx-whatsapp-bot.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>RDX WhatsApp Bot</h3>
+        <p>A powerful and fully automated WhatsApp Bot packed with features for entertainment, utilities, social media downloads, and much more. Built with Node.js.</p>
+        <div class="project-tags">
+          <span>Node.js</span><span>WhatsApp API</span><span>Automation</span>
+        </div>
+      </div>
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fab fa-facebook project-ico" style="color:#1877F2"></i>
+          <div class="project-links">
+            <a href="https://rdx-token-org.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>Facebook Token Extractor</h3>
+        <p>An advanced Facebook all-in-one token extraction tool. Extract cookies, tokens, and account info — built for security researchers and developers.</p>
+        <div class="project-tags">
+          <span>JavaScript</span><span>Facebook API</span><span>Security</span>
+        </div>
+      </div>
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fas fa-toolbox project-ico" style="color:#ffa502"></i>
+          <div class="project-links">
+            <a href="https://rdx-toolskit-org-1.onrender.com" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>RDX ToolsKit</h3>
+        <p>A comprehensive toolkit with multiple utilities for developers, researchers, and power users. All tools in one place — fast, free, and reliable.</p>
+        <div class="project-tags">
+          <span>Node.js</span><span>Multi-Tools</span><span>Web App</span>
+        </div>
+      </div>
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fas fa-lock project-ico" style="color:#ff4757"></i>
+          <div class="project-links">
+            <a href="https://osfr-code.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>OSFR Code Obfuscator</h3>
+        <p>Protect your Node.js and HTML source code with 100% secure obfuscation. Keep your intellectual property safe from reverse engineering.</p>
+        <div class="project-tags">
+          <span>Node.js</span><span>HTML</span><span>Security</span>
+        </div>
+      </div>
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fas fa-plug project-ico" style="color:#a29bfe"></i>
+          <div class="project-links">
+            <a href="https://rdx-api-zone.vercel.app/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>RDX API Zone</h3>
+        <p>A dedicated API portal offering multiple free-to-use APIs for developers. Integrates with various bots and tools in the RDX ecosystem.</p>
+        <div class="project-tags">
+          <span>REST API</span><span>Node.js</span><span>Developer Tools</span>
+        </div>
+      </div>
+
+      <div class="project-card card-glass">
+        <div class="project-top">
+          <i class="fas fa-id-card project-ico" style="color:#00cec9"></i>
+          <div class="project-links">
+            <a href="https://id-card-tool.onrender.com/" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+        <h3>CNIC Generator Tool</h3>
+        <p>An intelligent CNIC generator and ID card creation tool for testing and development purposes. Built with accuracy and ease of use in mind.</p>
+        <div class="project-tags">
+          <span>JavaScript</span><span>Generator</span><span>Web Tool</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <div class="section-header">
+      <span class="section-label">04. Contact</span>
+      <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+      <div class="section-line"></div>
+      <p class="contact-intro">Have a project idea or need a custom tool? Let's build something amazing together.</p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-info">
+        <div class="contact-card card-glass">
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fab fa-whatsapp"></i></div>
+            <div>
+              <span class="cinfo-label">WhatsApp</span>
+              <a href="https://wa.me/923301068874" target="_blank" class="cinfo-val">+92 330 1068874</a>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fab fa-youtube"></i></div>
+            <div>
+              <span class="cinfo-label">YouTube Channel</span>
+              <a href="https://youtube.com/@rdx-bot-zone" target="_blank" class="cinfo-val">@rdx-bot-zone</a>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-broadcast-tower"></i></div>
+            <div>
+              <span class="cinfo-label">WhatsApp Channel</span>
+              <a href="https://whatsapp.com/channel/0029VbCU9yi4tRroe2Xhwl24" target="_blank" class="cinfo-val">RDX Bot Zone Channel</a>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <span class="cinfo-label">Location</span>
+              <span class="cinfo-val">Pakistan 🇵🇰</span>
+            </div>
+          </div>
+        </div>
+        <div class="social-links-row">
+          <a href="https://youtube.com/@rdx-bot-zone" target="_blank" class="social-btn yt">
+            <i class="fab fa-youtube"></i> YouTube
+          </a>
+          <a href="https://wa.me/923301068874" target="_blank" class="social-btn wa">
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a href="https://whatsapp.com/channel/0029VbCU9yi4tRroe2Xhwl24" target="_blank" class="social-btn ch">
+            <i class="fas fa-broadcast-tower"></i> Channel
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap card-glass">
+        <form id="contactForm" onsubmit="handleForm(event)">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label>WhatsApp / Email</label>
+            <input type="text" placeholder="Your contact info" required />
+          </div>
+          <div class="form-group">
+            <label>Project Type</label>
+            <select>
+              <option value="">Select type...</option>
+              <option>WhatsApp Bot</option>
+              <option>Messenger Bot</option>
+              <option>Web Application</option>
+              <option>Hacking / Security Tool</option>
+              <option>Social Media Tool</option>
+              <option>API Development</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Describe your project..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full">
+            <i class="fab fa-whatsapp"></i> Send via WhatsApp
+          </button>
+          <p id="formMsg" class="form-msg"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">SARDAR <span class="accent">RDX</span></div>
+      <p class="footer-tagline">Full Stack Developer · Bot Builder · Ethical Hacker</p>
+      <div class="footer-links">
+        <a href="https://rdx-whatsapp-bot.vercel.app/" target="_blank">WhatsApp Bot</a>
+        <a href="https://rdx-api-zone.vercel.app/" target="_blank">API Zone</a>
+        <a href="https://rdx-toolskit-org-1.onrender.com" target="_blank">ToolsKit</a>
+        <a href="https://osfr-code.vercel.app/" target="_blank">Code Secure</a>
+      </div>
+      <p class="footer-copy">© 2025 Sardar RDX. All Rights Reserved. Built with 💻 & ☕</p>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
