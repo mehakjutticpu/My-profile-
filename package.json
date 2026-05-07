@@ -1,0 +1,12 @@
+{
+  "name": "sardar-rdx-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website for Sardar RDX",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
