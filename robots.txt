@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sardar-rdx.replit.app/sitemap.xml
